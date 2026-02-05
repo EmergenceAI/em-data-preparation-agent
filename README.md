@@ -60,6 +60,19 @@ docker run -d \
 
 ⚠️ **Do not process sensitive, confidential, or regulated data** (PII, PHI, financial records) unless you've reviewed Google's data processing terms and your organization allows it.
 
+📋 **Read the full [Terms of Use](TERMS_OF_USE.md)** for complete legal details, especially regarding third-party LLM provider data handling.
+
+---
+
+## 📜 Legal & Security
+
+Before using this software, please review:
+
+- **[Terms of Use](TERMS_OF_USE.md)** — Legal agreement governing your use of this software
+- **[Security Policy](SECURITY.md)** — How to report vulnerabilities and security best practices
+
+By downloading or using the Data Preparation Agent, you agree to the Terms of Use.
+
 ---
 
 ## 📋 What You Need
@@ -329,9 +342,9 @@ Please review the documentation in this repository before opening an issue. If y
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, email us at: **support@emergence.ai**
+Instead, email us at: **security@emergence.ai**
 
-Include a detailed description of the issue so our team can investigate promptly.
+See our [Security Policy](SECURITY.md) for full details on reporting vulnerabilities.
 
 #### Response Expectations
 
@@ -345,5 +358,15 @@ For enterprise deployments, production use cases, or integration discussions, pl
 
 ---
 
-**Last Updated**: February 2026  
+## 📄 Documentation
+
+- [Terms of Use](TERMS_OF_USE.md)
+- [Security Policy](SECURITY.md)
+- [Docker Compose Setup](#-advanced-docker-compose-optional)
+- [Troubleshooting](#-troubleshooting)
+
+---
+
+**Last Updated**: February 2026
 **Version**: Latest
+**Legal**: Usage subject to [Terms of Use](TERMS_OF_USE.md)
