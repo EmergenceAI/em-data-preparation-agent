@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   em-data-preparation-agent:
-    image: em-data-preparation-agent:latest
+    image: ghcr.io/emergenceai/em-data-preparation-agent:latest
     container_name: em-data-preparation-agent
     ports:
       - "8000:8000"  # Backend API + Frontend UI
