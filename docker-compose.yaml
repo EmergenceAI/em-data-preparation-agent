@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  em-data-preparation-agent:
+    image: em-data-preparation-agent:latest
+    container_name: em-data-preparation-agent
+    ports:
+      - "8000:8000"  # Backend API + Frontend UI
+    volumes:
+      - em-data-prep-data:/app/data  # Persist uploads, processing files, and outputs
+    environment:
+      # NOTE: GEMINI_API_KEY is entered via UI - no need to set here
+
+      # Optional: Override storage directories
+      - UPLOADS_DIR=/app/data/uploads
+      - TEMP_PROCESSING_DIR=/app/data/temp_processing
+      - OUTPUTS_DIR=/app/data/outputs
+
+      # Optional: Adjust cleanup policy
+      - STORAGE_CLEANUP_DAYS=7
+      - MAX_STORAGE_GB=50
+
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  em-data-prep-data:
