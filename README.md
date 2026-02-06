@@ -1,6 +1,8 @@
 # 🚀 Data Preparation Agent - Quick Start Guide
 
-Transform messy Excel files into clean, analytics-ready data with AI! This guide shows you how to run the Data Preparation Agent using Docker.
+## Transform messy Excel files into clean, analytics-ready data with AI! 
+
+This guide shows you how to run the Data Preparation Agent using Docker.
 
 ---
 
@@ -78,9 +80,9 @@ By downloading or using the Data Preparation Agent, you agree to the Terms of Us
 ## 📋 What You Need
 
 ✅ **Docker** - [Download here](https://www.docker.com/products/docker-desktop/)  
-✅ **Gemini API Key** 
-✅ **4GB RAM** minimum (8GB recommended)  
-✅ **10GB disk space**
+✅ **Gemini API Key**  
+✅ **4 GB RAM** minimum (8 GB recommended)  
+✅ **10GB disk space**  
 
 ---
 
