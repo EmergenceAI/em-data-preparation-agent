@@ -315,6 +315,8 @@ Thank you for your interest in the Data Preparation Agent. This repository provi
 
 ### Getting Help
 
+For community support and troubleshooting help, see our [Support Guide](SUPPORT.md).
+
 #### Bug Reports
 
 If you believe you have found a reproducible issue, please open a GitHub Issue using the Bug Report template and include:
@@ -338,7 +340,7 @@ Feature requests are reviewed periodically. Implementation is not guaranteed.
 
 #### Usage Questions
 
-Please review the documentation in this repository before opening an issue. If your question relates to architecture, enterprise integration, or production deployment, please contact us directly.
+Please review the documentation in this repository before opening an issue. If your question relates to architecture, enterprise integration, or production deployment, please join slack (see SUPPORT.md) to contact us directly.
 
 #### Security Issues
 
@@ -366,6 +368,7 @@ For enterprise deployments, production use cases, or integration discussions, pl
 - [Security Policy](SECURITY.md)
 - [Docker Compose Setup](#-advanced-docker-compose-optional)
 - [Troubleshooting](#-troubleshooting)
+- [Support](SUPPORT.md)
 
 ---
 
