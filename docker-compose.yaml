@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   em-data-preparation-agent:
     image: ghcr.io/emergenceai/em-data-preparation-agent:latest
@@ -9,7 +7,8 @@ services:
     volumes:
       - em-data-prep-data:/app/data  # Persist uploads, processing files, and outputs
     environment:
-      # NOTE: GEMINI_API_KEY is entered via UI - no need to set here
+      # Optional: Provide your Gemini API key via .env or enter it in the UI
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
 
       # Optional: Override storage directories
       - UPLOADS_DIR=/app/data/uploads

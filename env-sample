@@ -1,6 +1,6 @@
 # ============================================
 # REQUIRED: Gemini API Key
 # ============================================
-# Get your free Gemini API key from: https://makersuite.google.com/app/apikey
+# Get your free Gemini API key from: https://aistudio.google.com/apikey
 # This is REQUIRED to run the application
 GEMINI_API_KEY="your-gemini-api-key-here"
